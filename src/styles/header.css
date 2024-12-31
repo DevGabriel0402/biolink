@@ -1,0 +1,137 @@
+.hidden {
+    display: none !important;
+}
+
+.box-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    background-color: #262626;
+    border-radius: 12px;
+    gap: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.imagePerfil {
+    border-radius: 6px;
+    border: 2px solid #0b3873;
+}
+
+.info-name {
+    display: flex;
+    flex-direction: column;
+    color: #fdfdfd;
+}
+
+.info-name h2 {
+    font-size: 16px;
+}
+
+.info-name p {
+    font-size: 10px;
+}
+
+.tocaDisco {
+    display: block;
+    position: relative;
+
+}
+
+.disco-ativo {
+    animation: MoveIn .5s forwards !important;
+}
+
+#disco {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tocaDisco #playMusic,
+.tocaDisco #pauseMusic {
+    position: absolute;
+    display: block;
+    z-index: 100;
+    width: 40px;
+    transition: all .5s;
+    transform: translateX(2px);
+
+}
+
+.tocaDisco .capa {
+    transition: all .3s;
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 2px;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+#disco .imageDisco {
+    position: absolute;
+    z-index: 5;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    animation: Spin 1s linear infinite;
+    mix-blend-mode: multiply;
+
+
+}
+
+.disco {
+    position: relative;
+    transition: all .5s;
+    animation: Spin 1s linear infinite;
+}
+
+
+
+
+
+
+@keyframes Spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+@keyframes MoveIn {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-16px);
+
+    }
+}
+
+@keyframes MoveDown {
+    0% {
+        transform: translateX(-16px);
+    }
+
+    100% {
+        transform: translateX(0px);
+
+    }
+}
