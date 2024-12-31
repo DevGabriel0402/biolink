@@ -1,5 +1,6 @@
 import "../Header/header.css";
 import "boxicons";
+import "animate.css";
 import Musica from "@/assets/music/musica.webm";
 import imagemPerfil from "@/assets/imagens/Gabriel.webp";
 
@@ -40,7 +41,10 @@ export const Header = () => {
   };
 
   return (
-    <div className="box-header">
+    <div
+      className="box-header animate__animated animate__fadeInUp"
+      style={{ animationDuration: "2", animationDelay: "1.1s" }}
+    >
       <div className="info">
         <img
           className="imagePerfil"
