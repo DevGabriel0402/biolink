@@ -12,6 +12,8 @@ export const Skills = () => {
         <box-icon type="logo" name="react" color="#fafafa"></box-icon>
         <box-icon type="logo" name="sass" color="#fafafa"></box-icon>
         <box-icon type="logo" name="github" color="#fafafa"></box-icon>
+        <box-icon type="logo" name="wordpress" color="#fafafa"></box-icon>
+        <box-icon type="logo" name="wix" color="#fafafa"></box-icon>
         <box-icon type="logo" name="figma" color="#fafafa"></box-icon>
         <box-icon type="logo" name="adobe" color="#fafafa"></box-icon>
       </div>
