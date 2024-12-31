@@ -24,6 +24,8 @@ export const Header = () => {
       document.getElementById("playMusic").classList.add("hidden");
       document.getElementById("pauseMusic").style.opacity = 0.5;
       document.getElementById("playMusic").style.opacity = 0;
+      document.querySelector(".disco").style.animation =
+        "Spin 1s linear infinite";
     } else {
       tocaDisco.style.animation = "MoveDown .5s forwards";
       audio.pause();

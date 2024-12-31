@@ -40,8 +40,11 @@
 }
 
 .tocaDisco {
-    display: block;
+    display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
@@ -50,10 +53,10 @@
 }
 
 #disco {
-    display: block;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: url("https://cdn.pixabay.com/photo/2012/04/13/13/23/disc-32390_640.png");
 }
 
 .tocaDisco #playMusic,
@@ -65,6 +68,10 @@
     transition: all .5s;
     transform: translateX(2px);
 
+}
+
+#pauseMusic {
+    opacity: 0;
 }
 
 .tocaDisco .capa {
@@ -95,7 +102,6 @@
 .disco {
     position: relative;
     transition: all .5s;
-    animation: Spin 1s linear infinite;
 }
 
 
