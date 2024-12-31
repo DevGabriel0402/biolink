@@ -1,18 +1,12 @@
 import "./loading.css";
+import { useEffect } from "react";
 
 export const Loading = () => {
-  const hideLoading = () => {
-    const loadingElement = document.getElementById("loading");
-    if (loadingElement) {
-      setTimeout(() => {
-        loadingElement.style.display = "none";
-        loadingElement.style.opacity = "0";
-        loadingElement.style.transition = "all .3s";
-      }, 1200);
-    }
-  };
-
-  window.addEventListener("load", hideLoading);
+  useEffect(() => {
+    setTimeout(() => {
+      document.getElementById("loading").style.display = "none";
+    }, 1200);
+  }, []);
 
   return (
     <div id="loading">
