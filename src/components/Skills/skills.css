@@ -1,0 +1,17 @@
+.box-skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #262626;
+    border-radius: 12px;
+    color: #fafafa;
+    gap: 10px;
+
+}
+
+.box-skills h2 {
+    font-size: 18px;
+}

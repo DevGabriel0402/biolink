@@ -5,4 +5,8 @@
     padding: 14px;
     border-radius: 10px;
     margin-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }
