@@ -1,7 +1,7 @@
 import "../Header/header.css";
 import "boxicons";
-import Musica from "../assets/music/musica.webm";
-import imagemPerfil from "../assets/imagens/Gabriel.webp";
+import Musica from "@/assets/music/musica.webm";
+import imagemPerfil from "@/assets/imagens/Gabriel.webp";
 
 export const Header = () => {
   const audio = new Audio(Musica);
