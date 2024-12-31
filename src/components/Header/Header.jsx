@@ -18,8 +18,8 @@ export const Header = () => {
     if (DiscoAtivo) {
       audio.play();
       document.getElementById("capa").style.transform = "translateX(4px)";
-      document.getElementById("pauseMusic").style.transform = "translateX(4px)";
-      document.getElementById("playMusic").style.transform = "translateX(4px)";
+      document.getElementById("pauseMusic").style.transform = "translateX(6px)";
+      document.getElementById("playMusic").style.transform = "translateX(6px)";
       document.getElementById("pauseMusic").classList.remove("hidden");
       document.getElementById("playMusic").classList.add("hidden");
       document.getElementById("pauseMusic").style.opacity = 0.5;
@@ -44,8 +44,8 @@ export const Header = () => {
       <div className="info">
         <img
           className="imagePerfil"
-          width={40}
-          height={40}
+          width={60}
+          height={60}
           src={imagemPerfil}
           alt="imagem de Perfil"
         />
@@ -71,8 +71,8 @@ export const Header = () => {
         ></box-icon>
         <img
           id="capa"
-          width={40}
-          height={40}
+          width={60}
+          height={60}
           className="capa"
           src={imageDisco}
           alt="capa"
@@ -80,14 +80,14 @@ export const Header = () => {
         <div id="disco">
           <img
             className="imageDisco"
-            width={10}
-            height={10}
+            width={15}
+            height={15}
             src={imageDisco}
             alt="imgagem do disco"
           />
           <img
-            width={40}
-            height={40}
+            width={60}
+            height={60}
             className="disco"
             src="https://pngimg.com/d/cd_dvd_PNG102297.png"
             alt="disco"

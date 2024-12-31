@@ -124,14 +124,14 @@
     }
 
     100% {
-        transform: translateX(-16px);
+        transform: translateX(-24px);
 
     }
 }
 
 @keyframes MoveDown {
     0% {
-        transform: translateX(-16px);
+        transform: translateX(-24px);
     }
 
     100% {
