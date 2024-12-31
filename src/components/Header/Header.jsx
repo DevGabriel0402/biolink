@@ -79,8 +79,8 @@ export const Header = () => {
         <div id="disco">
           <img
             className="imageDisco"
-            width={14}
-            height={14}
+            width={10}
+            height={10}
             src={imageDisco}
             alt="imgagem do disco"
           />
@@ -88,7 +88,7 @@ export const Header = () => {
             width={40}
             height={40}
             className="disco"
-            src="https://cdn.pixabay.com/photo/2012/04/13/13/23/disc-32390_640.png"
+            src="https://pngimg.com/d/cd_dvd_PNG102297.png"
             alt="disco"
           />
         </div>

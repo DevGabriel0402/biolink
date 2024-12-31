@@ -55,7 +55,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: url("https://cdn.pixabay.com/photo/2012/04/13/13/23/disc-32390_640.png");
+    cursor: pointer
 }
 
 .tocaDisco #playMusic,
@@ -81,7 +81,6 @@
     object-fit: cover;
     aspect-ratio: 1/1;
     border-radius: 2px;
-    cursor: pointer;
     z-index: 10;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
@@ -96,8 +95,6 @@
     border-radius: 50%;
     animation: Spin 1s linear infinite;
     mix-blend-mode: multiply;
-
-
 }
 
 .disco {
