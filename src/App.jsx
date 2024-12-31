@@ -7,15 +7,15 @@ function App() {
     const hideLoading = () => {
       const loadingElement = document.getElementById("loading");
       if (loadingElement) {
-        loadingElement.style.display = "none";
+        setTimeout(() => {
+          loadingElement.style.display = "none";
+          loadingElement.style.opacity = "0";
+          loadingElement.style.transition = "all .3s";
+        }, 1200);
       }
     };
 
     window.addEventListener("load", hideLoading);
-
-    return () => {
-      window.removeEventListener("load", hideLoading);
-    };
   }, []);
   return (
     <>
