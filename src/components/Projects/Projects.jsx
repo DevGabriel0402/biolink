@@ -5,7 +5,7 @@ import BellaHImage from "@/assets/imagens/Bellah-freire.png";
 import CharlesImage from "@/assets/imagens/Charles-gama.png";
 import TaynaImage from "@/assets/imagens/Tayna-consultoria.png";
 import CamilasImage from "@/assets/imagens/Camilas-cerimonial.png";
-import BioImage from "@/assets/imagens/Bio-link.png";
+import BioImage from "@/assets/imagens/Bio-Link.png";
 import LinkImage from "@/assets/imagens/Gabriel-link.png";
 
 export const Projects = () => {
