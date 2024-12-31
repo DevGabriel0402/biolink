@@ -1,5 +1,5 @@
-import "../styles/container.css";
-import { Header } from "./header.jsx";
+import "../Container/container.css";
+import { Header } from "../Header/Header.jsx";
 
 export const Container = () => {
   return (

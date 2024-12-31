@@ -1,4 +1,4 @@
-import "../styles/header.css";
+import "../Header/header.css";
 import "boxicons";
 import Musica from "../assets/music/Unção Pelo Ar.webm";
 import imagemPerfil from "../assets/imagens/Gabriel.webp";

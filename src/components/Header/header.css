@@ -44,8 +44,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
-
-
+    cursor: pointer;
 }
 
 .disco-ativo {
@@ -68,6 +67,7 @@
     transition: all .5s;
     transform: translateX(2px);
 
+
 }
 
 #pauseMusic {
@@ -84,6 +84,7 @@
     cursor: pointer;
     z-index: 10;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
 
 }
 
