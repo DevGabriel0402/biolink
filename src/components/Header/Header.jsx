@@ -35,6 +35,7 @@ export const Header = () => {
       document.getElementById("playMusic").classList.remove("hidden");
       document.getElementById("playMusic").style.opacity = 1;
       document.getElementById("pauseMusic").style.opacity = 0;
+      document.querySelector(".disco").style.animation = "";
     }
   };
 
